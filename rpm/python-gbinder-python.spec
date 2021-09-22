@@ -26,7 +26,7 @@ Cython extension module for gbinder
 %package -n python3-%{fedname}
 Summary: %{summary}
 BuildRequires: python3-devel python3-setuptools
-BuildRequires: python3-Cython
+BuildRequires: python3-cython
 %{?python_provide:%python_provide python3-%{fedname}}
 %{?python_provide:%python_provide python3-%{modname}}
 
