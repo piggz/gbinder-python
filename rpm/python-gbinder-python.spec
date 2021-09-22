@@ -10,8 +10,8 @@
 %define internal_name gbinder
 
 Name: python-%{modname}
-Version: 1.0.0git.%{_build_date}.%{_git_refspec_short}
-Release: 1%{?dist}
+Version: 1.0.0git.0
+Release: 1
 License: GPLv3
 Summary: Python bindings for libgbinder
 
@@ -36,7 +36,7 @@ BuildRequires: python3-cython
 Python 3 version.
 
 %prep
-%setup -qn erfanoabdi-%{_proj_name}-%{_git_refspec_short}/upstream
+%setup -qn erfanoabdi-%{_proj_name}-%{_git_refspec}/upstream
 
 %build
 %{set_build_flags}
