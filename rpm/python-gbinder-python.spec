@@ -36,10 +36,9 @@ BuildRequires: python3-cython
 Python 3 version.
 
 %prep
-%setup -qn erfanoabdi-%{_proj_name}-%{_git_refspec}/upstream
+%setup -q -n %{name}-%{version}/upstream
 
 %build
-%{set_build_flags}
 %{python3} ./setup.py build_ext --inplace --cython
 env WITH_CYTHON=true %{py3_build}
 
