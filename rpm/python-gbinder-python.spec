@@ -18,7 +18,7 @@ Summary: Python bindings for libgbinder
 BuildRequires: gcc
 BuildRequires: libgbinder-devel libglibutil-devel pkgconfig
 
-Source: %{name}-%{_git_refspec}.tar.gz
+Source: %{name}-%{version}.tar.gz
 
 %description
 Cython extension module for gbinder
