@@ -1,16 +1,10 @@
-%define _disable_source_fetch 0
-
 %define _proj_name gbinder-python
-%define _git_refspec 79d40e9e564772973f7f085ed5c48e3fc625e0f5
-%define _git_refspec_short %(echo %{_git_refspec} | cut -c -7)
-%define _build_date %(date +%Y%m%d)
-
 %define modname %{_proj_name}
 %define fedname %{modname}
 %define internal_name gbinder
 
 Name: python-%{modname}
-Version: 1.0.0git.0
+Version: 1.0.0
 Release: 1
 License: GPLv3
 Summary: Python bindings for libgbinder
