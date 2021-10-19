@@ -4,7 +4,7 @@
 %define internal_name gbinder
 
 Name: python-%{modname}
-Version: 1.0.0
+Version: 1.0.0+git2
 Release: 1
 License: GPLv3
 Summary: Python bindings for libgbinder
