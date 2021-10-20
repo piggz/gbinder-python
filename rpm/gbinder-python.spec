@@ -1,4 +1,4 @@
-%define _proj_name gbinder-python
+%define _proj_name gbinder
 %define modname %{_proj_name}
 %define fedname %{modname}
 %define internal_name gbinder
